@@ -1,5 +1,8 @@
 function multiplyBy10 (array) {
- // your code here
+  var result = array.map(function (index) {
+    return index * 10;
+  });
+  return result;
 };
 
 function shiftRight (array) {
